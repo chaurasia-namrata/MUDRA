@@ -1,4 +1,4 @@
-const clientId = "client_code_here";
+const clientId = "enter_client_code_here";
 
 chrome.browserAction.onClicked.addListener(function(tab) {
   chrome.storage.sync.get(['token'], function(res) {
