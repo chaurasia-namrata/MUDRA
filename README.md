@@ -1,8 +1,5 @@
-# MUDRA
-Chrome extension for saving highlighted text in dropbox.
-
 <h1  align='center'>
-Paper extension
+MUDRA
 </h1> 
 <p align='center'>
 <img src='./img/icon-large.png' >
@@ -12,9 +9,22 @@ A chrome extension to sync the highlighted text from web to a dropbox paper.
 </h4> 
 <p align='center'><i align='center'>Take notes without leaving the tab </i></p>
 
+### Extension Download
+Download the paper extension from the [builds folder](https://github.com/chaurasia-namrata/MUDRA/blob/master/build/).
+
+### Dropbox Connection
+To connect the extension to your dropbox you need to follow these steps:
+
+1. Login to the developer portal
+    Go to the [Dropbox Developer portal](https://www.dropbox.com/developers) and log in with your Dropbox credentials.
+2. Click on "Create apps"
+3. Under Choose an API, select Dropbox API.
+4. Under Choose the type of access you need, select App folder or Full Dropbox, depending on your needs.
+5. Name your app.
+6. Click Create app.
+
 ### Installation
-1. Download the paper extension from the [builds folder](https://github.com/wdlsvnit/paper-extension/blob/master/builds/paper-extension.crx).
-2. Add extension to chrome with just *"Drag & Drop"* as shown here (If you are not on Windows!):
+1. Add extension to chrome with just *"Drag & Drop"* as shown here (If you are not on Windows!):
 ![Installation](https://user-images.githubusercontent.com/27485533/45442995-2b96cc80-b6e1-11e8-8065-b9e30943ae0b.gif)
 For Windows, follow these steps:
     - Extract .crx file. (Use [7-zip](http://www.7-zip.org/))
